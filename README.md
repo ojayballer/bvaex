@@ -1,6 +1,6 @@
 # Convolutional Beta VAE in JAX
 
-A Convolutional Variational Autoencoder implemented in JAX, with all core components written manually, including forward passes, backward propagation, and parameter updates.
+A Convolutional Variational Autoencoder implemented in JAX, with all  components written manually, including forward passes, backward propagation, and parameter updates.
 
 This project focuses on building and training a complete generative model by working directly with `jax.numpy` and `jax.lax`, without relying on automatic differentiation or high level neural network libraries. The model was trained on the full CelebA dataset using GPU acceleration.
 
