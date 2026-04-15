@@ -59,10 +59,10 @@ Implementation of core components:
 - **ELBO loss (Reconstruction + KL Divergence)**  
   [view implementation](model/ELBO.py)
 
-- **Custom Adam optimizer (AdamW style)**  
+- **Custom AdamW optimizer(decoupled weight decay)**  
   [view implementation](model/Adam.py)
 
-All gradients and parameter updates are explicitly derived and implemented without autograd.
+All gradients and parameter updates are explicitly derived and implemented without autograd
 
 ---
 
@@ -72,7 +72,7 @@ All gradients and parameter updates are explicitly derived and implemented witho
 - Conv2D × 3 (kernel=4, stride=2, padding=1)
 - ReLU activations
 - Flatten
-- Dense → μ, log σ²
+- Dense : μ, log σ²
 
 **Latent Space**
 - 128-dimensional Gaussian
@@ -149,7 +149,7 @@ weights/epoch_100/
 
 
 
-**Note:The images are blurry because of MSE,check the blog for more detail.**
+**Note:The reconstructions are slightly blurry because of the MSE-loss,more details in blog.**
 
 
 Outputs are stored in:
