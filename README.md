@@ -136,7 +136,7 @@ python train.py
 - Batch size: 512  
 - Training time: ~2 hours on full dataset  
 
-JAX was used to compile all numerical operations through XLA, allowing the manually implemented layers and gradients to execute efficiently on GPU.
+**JAX was used to compile all numerical operations through XLA, allowing the manually implemented layers and gradients to execute efficiently on GPU.**
 
 Trained weights are stored in:
 
