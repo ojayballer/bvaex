@@ -1,4 +1,4 @@
-# Convolutional Beta VAE in JAX
+# Convolutional Beta VAE from Scratch in JAX
 
 A Convolutional Variational Autoencoder implemented in JAX, with all  components written manually, including forward passes, backward propagation, and parameter updates.
 
